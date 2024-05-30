@@ -15,7 +15,7 @@ services:
     networks:
       - gitea
     volumes:
-      - /volume1/docker/gitea:/data
+      - /volume1/docker/gitea/config:/data
     ports:
       - "3047:3000"
       - "2290:2290"
