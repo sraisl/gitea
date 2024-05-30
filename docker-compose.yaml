@@ -37,4 +37,4 @@ services:
     networks:
       - gitea
     volumes:
-      - /docker/gitea/database:/var/lib/postgresql/data
+      - /volume1/docker/gitea/database:/var/lib/postgresql/data
