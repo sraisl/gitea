@@ -16,8 +16,6 @@ services:
       - gitea
     volumes:
       - /volume1/docker/gitea:/data
-      - /etc/timezone:/etc/timezone:ro
-      - /etc/localtime:/etc/localtime:ro
     ports:
       - "3047:3000"
       - "2290:2290"
